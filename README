@@ -1,0 +1,18 @@
+This is my implementation for EngineYard's July 2009 contest:
+
+http://www.engineyard.com/blog/2009/programming-contest-win-iphone-3gs-2k-cloud-credit/
+
+
+Compiling and running
+---------------------
+
+Just run:
+
+  $ make
+
+The output is a single binary, 'sham'. Run ./sham for usage, or just run:
+
+  $ ./start-sham 2
+
+to start running two instances of sham (1 instance per core). Hit ctrl-c to kill
+it.
